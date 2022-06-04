@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- change title -->
+    <title>Simple Cook</title>
+    <script src="js/lab.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/cook.css">
+    <!-- put the link of the ingredients.  -->
+</head>
+<body>
+  <!-- title -->
+  <div class="wrapper">
+    <h1>Simple Cook</h1>
+    <p id="one">This is intended for college students.</p>
+  </div>
+
+    <img src="img/cook.png" class="image1">
+
+
+  <!-- This will be at the left side -->
+  <h2>Your Ingredients</h2>
+    <div class="profiling-container">
+      <div class="veggie-container">
+        <p>Please select a vegetable</p>
+        <select name="veggie" id="veggie-recipe">
+           <option value="carrot">carrot</option>
+           <option value="scallion">scallion</option>
+           <option value="potato">potato</option>
+           <option value="onion">onion</option>
+           <option value="zucchini">zucchini</option>
+           <option value="corn">corn</option>
+           <option value="cucumber">cucumber</option>
+           <option value="broccoli">broccoli</option>
+           <option value="pumpkin">cabbage</option>
+           <option value="cauliflower">cauliflower</option>
+           <option value="asparagus">asparagus</option>
+           <option value="arugula">arugula</option>
+           <option value="kale">kale</option>
+           <option value="lettuce">lettuce</option>
+           <option value="eggplant">eggplant</option>
+           <option value="squash">squash</option>
+           <option value="cabbage">cabbage</option>
+           <option value="none">none</option>
+         </select>
+      </div>
+
+        <div class="fruit-container">
+        <p>Please select a fruit</p>
+        <select name="fruit" id="fruit-recipe">
+           <option value="tomato">tomato</option>
+           <option value="lemon">lemon</option>
+           <option value="avocado">avocado</option>
+           <option value="lime">lime</option>
+           <option value="none">none</option>
+        </select>
+      </div>
+
+       <div class="protein-container">
+           <p>Please select a protein</p>
+           <select name="protein" id="protein-recipe">
+             <option value="beef">beef</option>
+             <option value="bacon">bacon</option>
+             <option value="pork">pork</option>
+             <option value="chicken">chicken</option>
+             <option value="fish">fish</option>
+             <option value="duck">duck</option>
+             <option value="egg">egg</option>
+             <option value="tofu">tofu</option>
+             <option value="none">none</option>
+           </select>
+       </div>
+
+       <div class="dairy-container">
+           <p>Please select a dairy</p>
+           <select name="dairy" id="dairy-recipe">
+             <option value="butter">butter</option>
+             <option value="milk">milk</option>
+             <option value="cheese">cheese</option>
+             <option value="cream">cream</option>
+             <option value="yogurt">yogurt</option>
+             <option value="none">none</option>
+           </select>
+       </div>
+
+   <div class="done">
+     <input type="button" value="Done" id="submit">
+      </div>
+  </div>
+  <div class="display">
+    <div class="result-container">
+      <ul class="ingredients"></ul>
+    </div>
+  </div>
+      <!-- <script src="lab.js"></script> -->
+
+  <h2>Recipes</h2>
+  <p>Here are a list of recipes based off of your ingredients</p>
+	<div id="output">
+	</div>
+  <!-- <h4>Places To Get Ingredients</h4> -->
+  <!-- This is least priority -->
+</body>
+</html>
