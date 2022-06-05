@@ -243,11 +243,10 @@ h2 {
 }
 
 
-/* THIS IS OLD CODE
 html {
 /* * means "all elements" (a universal selector), so we are setting all elements to have zero margins,
 and zero padding, thus making them look the same in all browsers. */
-}
+/* }
 *,
 *:before,
 *:after {
@@ -314,7 +313,7 @@ body {
   font-family: "Bradley-Hand", cursive;
   background: #ecebbd;
   /* color: #a9ca84; */
-}
+/* }
 
 h2 {
   font-family: "Bradley-Hand", cursive;
@@ -329,9 +328,9 @@ h2 {
 .profiling-container {
   text-align: center;
   margin:auto;
-  width: 60%
+  width: 60% */
   /* align-items: center; */
-}
+/* }
 .veggie-container {
   margin: 0 1em;
   display: flex;
@@ -412,7 +411,7 @@ h2 {
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2);
   outline: none;
   transition: all 0.2s;
-}
+} */
 
 /*
 .submit-button input {
@@ -422,7 +421,7 @@ h2 {
   margin-top: 80px;
 } */
 
-.done {
+/* .done {
   box-shadow: none;
   color: #000;
   margin-top: 80px;
@@ -430,7 +429,6 @@ h2 {
 
 }
 .display {
-  margin: 1em;
+  margin: 1em; */
   /* background: rgba(0, 0, 0, 0.2); */
-}
-*/
+/* } */
