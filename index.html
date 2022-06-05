@@ -3,6 +3,120 @@
 <head>
   <!-- change title -->
     <title>Simple Cook</title>
+    <script src="js/lab.js" defer></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" -->
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    <link rel="stylesheet" type="text/css" href="css/cook.css">
+
+  <!-- title -->
+  <div class="wrapper">
+    <h1>Simple Cook</h1>
+    <p id="one">This is intended for college students.</p>
+  </div>
+
+    <img src="img/cook.png" class="image1">
+    <img src="img/cut-blob.png" class="image2">
+    <img src="img/blob.png" class="image3">
+    <img src="img/ovals.png" class="image4">
+    <img src="img/cut-ovals.png" class="image5">
+
+
+  <!-- This will be at the left side -->
+  <h2>Your Ingredients</h2>
+    <div class="profiling-container">
+      <div class="veggie-container">
+        <p>Please select a vegetable</p>
+        <select name="veggie" id="veggie-recipe">
+           <option value="Carrot">carrot</option>
+           <option value="Scallion">scallion</option>
+           <option value="Potato">potato</option>
+           <option value="Onion">onion</option>
+           <option value="Zucchini">zucchini</option>
+           <option value="Corn">corn</option>
+           <option value="Cucumber">cucumber</option>
+           <option value="Broccoli">broccoli</option>
+           <option value="Pumpkin">cabbage</option>
+           <option value="Cauliflower">cauliflower</option>
+           <option value="Asparagus">asparagus</option>
+           <option value="Arugula">arugula</option>
+           <option value="Kale">kale</option>
+           <option value="Lettuce">lettuce</option>
+           <option value="Eggplant">eggplant</option>
+           <option value="Squash">squash</option>
+           <option value="Cabbage">cabbage</option>
+           <option value="None">none</option>
+         </select>
+      </div>
+
+
+        <div class="fruit-container">
+        <p>Please select a fruit</p>
+        <select name="fruit" id="fruit-recipe">
+           <option value="Tomato">tomato</option>
+           <option value="Lemon">lemon</option>
+           <option value="Avocado">avocado</option>
+           <option value="Lime">lime</option>
+           <option value="None">none</option>
+        </select>
+      </div>
+
+       <div class="protein-container">
+           <p>Please select a protein</p>
+           <select name="protein" id="protein-recipe">
+             <option value="Beef">beef</option>
+             <option value="Bacon">bacon</option>
+             <option value="Pork">pork</option>
+             <option value="Chicken">chicken</option>
+             <option value="Fish">fish</option>
+             <option value="Duck">duck</option>
+             <option value="Egg">egg</option>
+             <option value="Tofu">tofu</option>
+             <option value="None">none</option>
+           </select>
+       </div>
+
+       <div class="dairy-container">
+           <p>Please select a dairy</p>
+           <select name="dairy" id="dairy-recipe">
+             <option value="Butter">butter</option>
+             <option value="Milk">milk</option>
+             <option value="Cheese">cheese</option>
+             <option value="Cream">cream</option>
+             <option value="Yogurt">yogurt</option>
+             <option value="None">none</option>
+           </select>
+       </div>
+
+   <div class="done">
+     <input type="button" value="Done" id="submit">
+  </div>
+
+  </div>
+  <div class="display">
+    <div class="result-container">
+      <ul class="ingredients"></ul>
+    </div>
+  </div>
+      <!-- <script src="lab.js"></script> -->
+
+  <h2>Recipes</h2>
+  <p>Here are a list of recipes based off of your ingredients</p>
+  <div id="output">
+  </div id="output">
+  <!-- <h4>Places To Get Ingredients</h4> -->
+  <!-- This is least priority -->
+</body>
+</html>
+
+
+
+
+<!-- THIS IS OLD CODE
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- change title -->
+    <title>Simple Cook</title>
     <script src="js/cook.js" defer></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
@@ -107,4 +221,6 @@
   <!-- This is least priority -->
 </body>
 </html>
+
+-->
 
