@@ -88,7 +88,7 @@ function buildSite(){
     var tempTitle = document.createElement('p');
     tempHyperLink.innerHTML = outputArray[i].name;
     if (i==0){
-      tempTitle.tempHyperLink += ' - BEST MATCH';
+      tempHyperLink.innerHTML += ' - BEST MATCH';
     }
     tempTitle.appendChild(tempHyperLink);
     tempTextBox.appendChild(tempTitle);
