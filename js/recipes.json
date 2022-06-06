@@ -38,5 +38,21 @@
     "description": "Description here",
     "image": "hyperlink here",
     "priority": 0
+  },
+  {
+    "name":"Carrot Fries"，
+    "ingredients": ["Carrot", "Salt"],
+    "hyperlink":"https://feedingmykid.com/recipe/carrot-fries-recipe/",
+    "description": "4 large carrots,sprinkle of sea salt. Preheat oven to 450F, and spray baking sheet with non-stick cooking spray.Slice carrots into french-fry shapes, and place on baking sheet.Sprinkle sea salt over fries.Bake for 12 minutes. Enjoy!",
+    "image": "https://feedingmykid.com/wp-content/uploads/2016/10/Carrot-Fries-2.jpg",
+    "priority": 0
+  },
+  {
+    "name":"Tomato Stew egg"，
+    "ingredients": ["Tomato", "Egg","Salt"],
+    "hyperlink":"https://misschinesefood.com/tomato-stew-eggs/",
+    "description": "Wash the tomatoes and dig a hole; Beat the eggs into a bowl, add some salt and stir; Pour the egg liquid into the tomatoes; Cover the tomato lid; Add water to the pot, boil, and put the tomatoes on the steaming rack; Close the lid; Take it out when steamed; Cut some green onions and sprinkle on the custard. Finally, you get home cooking tomato stew.",
+    "image": "https://i2.supercook.com/e/5/6/a/e56a39cacdbe6ba55ea9451ab2d73a5f-0.jpg",
+    "priority": 0
   }
 ]
