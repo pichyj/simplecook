@@ -2,41 +2,41 @@
   {
     "name":"BLT",
     "ingredients": ["Bacon", "Lettuce", "Tomato", "Bread"],
-    "hyperlink":"",
-    "description": "Description here",
-    "image": "hyperlink here",
+    "hyperlink":"https://themom100.com/recipe/the-ultimate-blt-sandwich/",
+    "description": "The best BLT Sandwich needs a bit of discussion. Thick-cut bacon vs. regular, cooked to the perfect degree of crispness.  Buying good bacon vs. everyday bacon is worth the extra few bucks here.",
+    "image": "https://themom100.com/wp-content/uploads/2019/08/ultimate-blt-sandwich-345-768x768.jpg",
     "priority": 0
   },
   {
-    "name":"PBJ Sandwich",
+    "name":"PBJ Bread",
     "ingredients": ["Peanut Butter", "Jelly", "Bread"],
-    "hyperlink":"https:",
-    "description": "Description here",
-    "image": "hyperlink here",
+    "hyperlink":"https://www.cakenknife.com/pbj-bread/",
+    "description": "This PB&J bread really is the best way to start the day – or to snack on whenever you are hungry, which if you are anything like me, seems to be all the time… But seriously, it’s just so moist and just dense enough to be fantastically filling but not too over-indulgent. This bread is a new favorite of mine, and the fact that it takes minimal effort to make means that it has become a staple in our home.",
+    "image": "https://www.cakenknife.com/wp-content/uploads/2014/03/PBJ-Bread_2.jpg",
     "priority": 0
   },
   {
     "name":"Chicken Alfredo",
-    "ingredients": ["Chicken", "Alfredo Sauce", "Pasta", ""],
-    "hyperlink":"https:",
-    "description": "Description here",
-    "image": "hyperlink here",
+    "ingredients": ["Chicken", "Alfredo Sauce", "Pasta"],
+    "hyperlink":"https://bellyfull.net/chicken-alfredo-recipe/",
+    "description": "This easy Chicken Alfredo recipe includes golden pan-fried seasoned chicken breasts and tender noodles, coated in the most dreamy cream sauce ever. A showstopper meal and it’s all done in just over 30 minutes!",
+    "image": "https://bellyfull.net/wp-content/uploads/2021/02/Chicken-Alfredo-blog-4.jpg",
     "priority": 0
   },
   {
     "name":"Tomato Soup",
     "ingredients": ["Tomato", "Onion", "Butter"],
-    "hyperlink":"https:",
-    "description": "Description here",
-    "image": "hyperlink here",
+    "hyperlink":"https://www.inspiredtaste.net/27956/easy-tomato-soup-recipe/",
+    "description": "Combine butter, onion, and tomatoes. Grab a Dutch oven or pot, place it over medium heat and melt the butter. Add half an onion that’s been cut into large wedges and a large can of tomatoes. Add water or broth and simmer. Bring everything to a low simmer, add some salt and leave it alone for about 40 minutes.",
+    "image": "https://www.inspiredtaste.net/wp-content/uploads/2016/08/Tomato-Soup-Recipe-1-1200.jpg",
     "priority": 0
   },
   {
     "name":"Gilled Cheese Sandwich",
     "ingredients": ["Cheese", "Butter", "Bread"],
-    "hyperlink":"https:",
-    "description": "Description here",
-    "image": "hyperlink here",
+    "hyperlink":"https://natashaskitchen.com/grilled-cheese-sandwich/",
+    "description": "Grilled cheese is a classic American sandwich that has been around since 1920. It is a hot sandwich made with buttered and toasted bread and originally filled with American cheese, but is now commonly made with one or more different cheeses.",
+    "image": "https://natashaskitchen.com/wp-content/uploads/2021/08/Grilled-Cheese-Sandwich-3.jpg",
     "priority": 0
   },
   {
