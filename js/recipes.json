@@ -54,5 +54,93 @@
     "description": "Wash the tomatoes and dig a hole; Beat the eggs into a bowl, add some salt and stir; Pour the egg liquid into the tomatoes; Cover the tomato lid; Add water to the pot, boil, and put the tomatoes on the steaming rack; Close the lid; Take it out when steamed; Cut some green onions and sprinkle on the custard. Finally, you get home cooking tomato stew.",
     "image": "https://i2.supercook.com/e/5/6/a/e56a39cacdbe6ba55ea9451ab2d73a5f-0.jpg",
     "priority": 0
-  }
+  },
+  {
+    "name":"Grilled Flat Iron Steak"，
+    "ingredients": ["Scallion", "Lemon","Beef"],
+    "hyperlink":"https://honest-food.net/grilled-flat-iron-steak-recipe/",
+    "description": "Salt your flat iron steaks on both sides and let them sit, uncovered, in the fridge up to overnight, and at least 1 hour. I like to set them on a rack over a tray to catch any juices. This preseasons your meat and will help develop a better crust on the grill. Get your grill very hot and clean and oil your grates as I described above. When you start this process, take your steaks out of the fridge to warm up a bit. You still want them cool, though, so no more than about 15 minutes. Grill your flat iron steaks hard on one side, a good 5 minutes without touching them. Flip and grill to the doneness you like, anywhere from 2 to 10 minutes, depending on the heat and the thickness of your steak. Use the finger test for doneness to determine this. Move your steaks from the grill, coat them with freshly cracked black pepper - or whatever spices and herbs you like - and let it rest 5 minutes. Slice across the grain (the narrow end), and squeeze citrus juice over it all.",
+    "image": "https://honest-food.net/wp-content/uploads/2019/05/flat-iron-steak-recipe.jpg",
+    "priority": 0
+  },
+  {
+    "name":"Crispy Cracklin' Pork Picnic Shoulder"，
+    "ingredients": ["Pork"],
+    "hyperlink":"https://dinnerthendessert.com/crispy-cracklin-pork-picnic-shoulder-slow-cooker-oven/",
+    "description": "A foolproof EASY slow cooker and oven method for a shatteringly crisp Pork picnic shoulder that is pull apart tender on the inside with a thin crisp cracklin’ skin layer.",
+    "image": "https://dinnerthendessert.com/wp-content/uploads/2015/07/Skin.jpg",
+    "priority": 0
+  },
+  {
+    "name":"Baked Chicken Thighs With Butter and Onions"，
+    "ingredients": ["Onion","Chicken","Butter"],
+    "hyperlink":"https://www.washingtonpost.com/food/2021/04/30/baked-chicken-thighs-recipe-butter/",
+    "description": "A super simple, hands-off recipe that is perfect for busy families. It’s great served with rice to sop up the delightful mix of butter, onions and chicken drippings created in the roasting pan.",
+    "image": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/Y2Q6VUVIGAI6XKFHL5C53TPTMQ.jpg&w=1440",
+    "priority": 0
+  },
+  {
+    "name":"Zucchini Zoodles Homemade Marinara"，
+    "ingredients": ["Zucchini"],
+    "hyperlink":"http://www.feedyoursoul2.com/zucchini-zoodles-homemade-marinara/",
+    "description": "This is such an easy dish to put together.  The sauce takes close to two hours but that is counting the roasting of the garlic in the oven.  The real cooking time is 30 – 45 minutes and everything is assembled 5 – 10 minutes.  So once you have everything in your pan, you can get back to your Facebook or your TV. ",
+    "image": "http://www.feedyoursoul2.com/wp-content/uploads/2017/09/Zucchini-Noodles-Homemade-Marainara-10-500.jpg",
+    "priority": 0
+  },
+  {
+    "name":"Simple Seared Salmon Recipe"，
+    "ingredients": ["Fish","Butter","Lemon"],
+    "hyperlink":"https://www.winemag.com/recipe/simple-seared-salmon-recipe/",
+    "description": "Look for fresh, wild-caught Pacific salmon for the cleanest taste and firmest texture. It will lend itself to any number of aromatics, like citrus fruits and side dishes like sautéed fennel with the gremolata or Brussels sprouts with the lemon butter. ",
+    "image": "https://253qv1sx4ey389p9wtpp9sj0-wpengine.netdna-ssl.com/wp-content/uploads/2017/04/Seared_Salmon_Pairings-700x461.jpg",
+    "priority": 0
+  },
+  {
+    "name":"CORN MILK"，
+    "ingredients": ["Corn","Milk"],
+    "hyperlink":"https://www.chinayummyfood.com/corn-milk/",
+    "description": "I usually use High Speed Blender to nake the milk corn, it is very easy and simple. You just need to put the ingredients in the blender and waiting for 20 minutes. And then, you can get hot and thick milk corn. It is very sweet and delicious! No thickener, the scent of the mouth is amazing!",
+    "image": "https://www.chinayummyfood.com/wp-content/uploads/2019/09/Corn-Milk.jpg",
+    "priority": 0
+  },
+  {
+    "name":"Bacon Avocado Fries"，
+    "ingredients": ["Avocado","Bacon"],
+    "hyperlink":"https://www.delish.com/cooking/recipe-ideas/recipes/a48261/bacon-avocado-fries-recipe/",
+    "description":"Preheat oven to 425º. Slice each avocado into 8 equally-sized wedges. Wrap each wedge in bacon, cutting bacon if needed. Place on a baking sheet, seam side down. Bake until bacon is cooked through and crispy, 12 to 15 minutes. Serve with ranch dressing.",
+    "image": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-191907-bacon-wrapped-avocado-fries-0360-landscape-pf-1565884766.jpg?crop=0.668xw:1.00xh;0.146xw,0&resize=768:*",
+    "priority": 0
+  },
+  {
+    "name":"Cucumber-Avocado Salad"，
+    "ingredients": ["Cuumber","Avocado"],
+    "hyperlink":"https://cooking.nytimes.com/recipes/1022411-cucumber-avocado-salad",
+    "description": "Crunchy cucumbers and creamy avocados are the stars of this simple five-ingredient salad. Peeling the cucumbers in alternating stripes helps them soak up seasonings while maintaining their shape. After being cut into bite-size pieces, they are combined with salt to draw out moisture, concentrating their flavor. Cubed avocado is tossed with lemon juice or vinegar to prevent browning, then everything is stirred together vigorously so that the avocado breaks down a bit to add a glossy coating. Finish with a hit of red-pepper flakes for heat, or embellish with herbs, lettuces, beans, soft-boiled eggs, feta, nuts and so on.",
+    "image": "https://static01.nyt.com/images/2021/07/13/dining/as-cucumber-avocado-saladd/merlin_189372006_a9ab5728-f86c-4727-aedf-3f1f6f4633b8-articleLarge.jpg",
+    "priority": 0
+  },
+  {
+    "name":"Sesame Tofu With Broccoli"，
+    "ingredients": ["Broccoli","Tofu"],
+    "hyperlink":"https://www.bonappetit.com/recipe/sesame-tofu-with-broccoli",
+    "description":"This recipe is a riff on a Chinese American classic, sesame chicken. Achieving a crispy coating around the tofu is key—it adds to the overall texture of the finished dish.",
+    "image": "https://assets.bonappetit.com/photos/6019c57721494f6f6d02df99/1:1/w_2240,c_limit/Basically-SesameTofu-Broccoli-02.jpg",
+    "priority": 0
+  },
+  {
+    "name":"One-pan duck with Savoy cabbage"，
+    "ingredients": ["Cabbage","Duck"],
+    "hyperlink":"https://www.bbcgoodfood.com/recipes/one-pan-duck-savoy-cabbage",
+    "description":"Lightly score the skin of the duck breasts, then generously season with the peppercorns and a sprinkling of salt. Lay the duck breasts, skin-side down, in a non-stick sauté pan, then place over a low heat. Leave the duck for 15 mins to brown and release its fat, then flip over onto the flesh side for 5 mins. Remove the duck from the pan, then turn up the heat. Add the potatoes to the pan, fry until brown and crisp, then scatter over the parsley and garlic. Scoop out with a slotted spoon onto a plate, then season with salt. Keep the pan on the heat. Fry the bacon until crisp, then add the cabbage. Cook for 1 min, add a splash of water, then fry for 2 mins, just until the cabbage is wilted. While the cabbage is cooking, whisk any juices from the duck with the vinegar and olive oil. To serve, carve the duck breast into slices. Fan out on large dinner plates, spoon a neat bundle of cabbage on one side, then pile a serving of potatoes on the other. Drizzle over the dressing and serve.",
+    "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-10400_11-60041db.jpg?quality=90&webp=true&resize=440,400",
+    "priority": 0
+  },
+  {
+    "name":"SAUTÉED PORK BELLY WITH CAULIFLOWER"，
+    "ingredients": ["Cauliflower","Pork"],
+    "hyperlink":"https://www.spicetheplate.com/pork/sauteed-pork-belly-with-cauliflower/",
+    "description":"Sautéed pork belly with cauliflower is a popular dish frequently ordered at restaurants in China. With this recipe, you can easily recreate this tasty dish at home. Aside from roasting, if you are looking for new ways to serve cauliflower, this will be a great recipe to add to your collection.",
+    "image": "https://i2.wp.com/www.spicetheplate.com/wp-content/uploads/2016/11/Pork-Belly-with-Cauliflower-7.jpg?w=680&ssl=1",
+    "priority": 0
+  },  
 ]
