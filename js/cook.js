@@ -42,6 +42,7 @@ function getInput(){
 
 //Build array based on ingredientInput, lightly sorted
 function buildOutput(){
+  outputArray = [];
   for (i = 0; i < ingredientInput.length; i++){
     if (recipeDictionary[ingredientInput[i]] == null){
       recipeDictionary[ingredientInput[i]] = [];
