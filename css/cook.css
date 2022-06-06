@@ -177,6 +177,18 @@ h2 {
   align-items: center;
 }
 
+.recipebox{
+  clear:both;
+}
+.recipetextbox{
+  float:left;
+  align-items: center;
+}
+.recipeimage{
+  float:left;
+  width:250px;
+}
+
 .protein-container select {
   border: none;
   height: 2.2em;
