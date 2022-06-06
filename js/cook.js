@@ -87,7 +87,7 @@ function buildSite(){
     tempRecipe.setAttribute("class", "recipebox");
     
     var tempImage = document.createElement('img');
-    tempImage.setAttribute("src", outputArray.image);
+    tempImage.setAttribute("src", outputArray[i].image);
     tempImage.setAttribute("class", "recipeimage");
     tempRecipe.appendChild(tempImage);
     
