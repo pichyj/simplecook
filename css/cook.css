@@ -29,7 +29,7 @@ p {
 
 .image1 {
   float: right;
-  position: relative;
+  position: absolute;
   top: -425px;
   left: -120px;
   width: 400px;
@@ -38,7 +38,7 @@ p {
 
 .image2 {
   float: left;
-  position: relative;
+  position: absolute;
   border-radius: 25px;
   top: -116px;
   right: -50px;
@@ -48,7 +48,7 @@ p {
 
 .image3 {
   float: right;
-  position: relative;
+  position: absolute;
   bottom: 430px;
   border-radius: 25px;
   left: -40px;
@@ -58,7 +58,7 @@ p {
 
 .image4 {
   float: right;
-  position: relative;
+  position: absolute;
   border-radius: 25px;
   top: -218px;
   left: -40px;
@@ -67,7 +67,7 @@ p {
 }
 
 .image5 {
-  position: relative;
+  position: absolute;
   bottom: 430px;
   border-radius: 25px;
   right: -1000px;
