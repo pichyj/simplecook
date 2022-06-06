@@ -10,11 +10,13 @@ fetch('js/recipes.json')
 var recipeDictionary = {};
 var ingredientInput = [];
 var outputArray = [];
-console.log("Version 1.0.1");
+console.log("Version 1.1.0");
 var veggie = document.getElementById('veggie-recipe');
 var fruit = document.getElementById('fruit-recipe');
 var protien = document.getElementById('protein-recipe');
 var dairy = document.getElementById('dairy-recipe');
+var grain = document.getElementById('grain-recipe');
+var misc = document.getElementById('misc-recipe');
 var outputEl = document.getElementById('output');
 
 
@@ -38,6 +40,8 @@ function getInput(){
   ingredientInput[1] = fruit.options[fruit.selectedIndex].value;
   ingredientInput[2] = protien.options[protien.selectedIndex].value;
   ingredientInput[3] = dairy.options[dairy.selectedIndex].value;
+  ingredientInput[4] = grain.options[grain.selectedIndex].value;
+  ingredientInput[5] = misc.options[misc.selectedIndex].value;
 }
 
 //Build array based on ingredientInput, lightly sorted
