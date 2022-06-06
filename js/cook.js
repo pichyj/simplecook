@@ -21,6 +21,7 @@ var outputEl = document.getElementById('output');
 //Turns the imported recipe data into a dictionary organized by ingredients
 function dictionizeRecipes(){
   recipeDictionary = {};
+  recipe
   for (i = 0; i < recipesArray.length; i++){
     for (k = 0; k < recipesArray[i].ingredients.length; k++){
       if (recipeDictionary[recipesArray[i].ingredients[k]]==null){
@@ -84,6 +85,7 @@ function buildSite(){
     
     var tempImage = document.createElement('img');
     tempImage.setAttribute("src", outputArray.image);
+    onsole.log(outputArray.image);
     tempImage.setAttribute("class", "recipeimage");
     tempRecipe.appendChild(tempImage);
     
@@ -91,6 +93,7 @@ function buildSite(){
     tempTextBox.setAttribute("class", "recipetextbox");
     
     var tempHyperLink = document.createElement('a');
+    console.log(outputArray.hyperlink);
     tempHyperLink.setAttribute("href", outputArray.hyperlink);
     
     var tempTitle = document.createElement('p');
