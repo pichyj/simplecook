@@ -85,7 +85,6 @@ function buildSite(){
     
     var tempImage = document.createElement('img');
     tempImage.setAttribute("src", outputArray.image);
-    console.log(outputArray.image);
     tempImage.setAttribute("class", "recipeimage");
     tempRecipe.appendChild(tempImage);
     
@@ -93,8 +92,7 @@ function buildSite(){
     tempTextBox.setAttribute("class", "recipetextbox");
     
     var tempHyperLink = document.createElement('a');
-    console.log(outputArray.hyperlink);
-    tempHyperLink.setAttribute("href", outputArray.hyperlink);
+    tempHyperLink.setAttribute("href", outputArray[i].hyperlink);
     
     var tempTitle = document.createElement('p');
     tempTitle.innerHTML = outputArray[i].name;
