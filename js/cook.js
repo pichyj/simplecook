@@ -81,21 +81,26 @@ function buildSite(){
   for (i = 0; i < outputArray.length; i++){
     var tempRecipe = document.createElement("div");
     tempRecipe.setAttribute("class", "recipebox");
-    var tempTextBox = document.createElement("div");
-    tempTextBox.setAttribute("class", "recipetextbox");
-    var tempHyperLink = document.createElement('a');
-    tempHyperLink.setAttribute("href", outputArray.hyperlink);
-    var tempTitle = document.createElement('p');
-    tempHyperLink.innerHTML = outputArray[i].name;
-    if (i==0){
-      tempHyperLink.innerHTML += ' - BEST MATCH';
-    }
-    tempTitle.appendChild(tempHyperLink);
-    tempTextBox.appendChild(tempTitle);
+    
     var tempImage = document.createElement('img');
     tempImage.setAttribute("src", outputArray.image);
     tempImage.setAttribute("class", "recipeimage");
     tempRecipe.appendChild(tempImage);
+    
+    var tempTextBox = document.createElement("div");
+    tempTextBox.setAttribute("class", "recipetextbox");
+    
+    var tempHyperLink = document.createElement('a');
+    tempHyperLink.setAttribute("href", outputArray.hyperlink);
+    
+    var tempTitle = document.createElement('p');
+    tempTitle.innerHTML = outputArray[i].name;
+    
+    if (i==0){
+      tempTitle.innerHTML += ' - BEST MATCH';
+    }
+    tempHyperLink.appendChild(tempTitle);
+    tempTextBox.appendChild(tempHyperLink);
     var ingredientList = "Ingredients:";
     for (k = 0; k < outputArray[i].ingredients.length; k++){
       ingredientList += " " + outputArray[i].ingredients[k] + ",";
