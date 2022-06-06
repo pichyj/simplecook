@@ -126,6 +126,7 @@ h2 {
   justify-content: space-evenly;
   text-align: center;
   position: relative;
+  width:100%;
   /* align-items: center; */
 }
 /*
