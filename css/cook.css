@@ -108,7 +108,6 @@ body {
   margin: 0;
   font-family: "Bradley-Hand", cursive;
   background: #ecebbd;
-  /* color: #a9ca84; */
 }
 
 h2 {
@@ -126,8 +125,18 @@ h2 {
   flex-wrap: nowrap;
   justify-content: space-evenly;
   text-align: center;
+  position: relative;
   /* align-items: center; */
 }
+/*
+#content, #output {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  position: relative;
+} */
 
 .veggie-container {
   margin: 0 1em;
