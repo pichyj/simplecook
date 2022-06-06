@@ -80,19 +80,21 @@ function buildSite(){
   outputEl.innerHTML = '';
   for (i = 0; i < outputArray.length; i++){
     var tempRecipe = document.createElement("div");
-    tempRecipe.setAttribute("class", "recipeBox");
+    tempRecipe.setAttribute("class", "recipebox");
     var tempTextBox = document.createElement("div");
+    tempTextBox.setAttribute("class", "recipetextbox");
     var tempHyperLink = document.createElement('a');
     tempHyperLink.setAttribute("href", outputArray.hyperlink);
     var tempTitle = document.createElement('p');
-    tempTitle.innerHTML = outputArray[i].name;
+    tempHyperLink.innerHTML = outputArray[i].name;
     if (i==0){
-      tempTitle.innerHTML += ' - BEST MATCH';
+      tempTitle.tempHyperLink += ' - BEST MATCH';
     }
-    tempHyperLink.appendChild(tempTitle);
-    tempTextBox.appendChild(tempHyperLink);
-    var tempImage = document.createElement('image');
+    tempTitle.appendChild(tempHyperLink);
+    tempTextBox.appendChild(tempTitle);
+    var tempImage = document.createElement('img');
     tempImage.setAttribute("src", outputArray.image);
+    tempImage.setAttribute("class", "recipeimage");
     tempRecipe.appendChild(tempImage);
     var ingredientList = "Ingredients:";
     for (k = 0; k < outputArray[i].ingredients.length; k++){
