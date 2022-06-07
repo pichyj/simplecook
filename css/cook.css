@@ -31,7 +31,7 @@ p {
 .image1 {
   float: right;
   position: absolute;
-  top: 18px;
+  top: 20px;
   left: 65%;
   width: 400px;
   height: 400px;
@@ -52,7 +52,7 @@ p {
   position: absolute;
   border-radius: 25px;
   left: 54%;
-  top: 3%;
+  top: 18px;
   width: 200px;
   height: 200px;
 }
@@ -204,6 +204,8 @@ h2 {
 .recipeimage{
   float:left;
   width:250px;
+  height:250px;
+  object-fit:cover;
 }
 
 .protein-container select {
