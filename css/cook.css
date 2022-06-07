@@ -198,6 +198,14 @@ h2 {
 
 .recipebox{
   clear:both;
+  background-color:#52643e;
+  padding: 20px;
+  min-height: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 .recipetextbox{
   align-items: center;
