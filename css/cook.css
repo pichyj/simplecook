@@ -61,15 +61,16 @@ p {
   position: absolute;
   border-radius: 25px;
   left: 50%;
-  top: 33%;
+  top: 245px;
   width: 14.5%;
+  max-width: 180px;
 }
 
 .image5 {
   position: absolute;
   border-radius: 25px;
   right: 30px;
-  top: 245px;
+  top: 10%;
   width: 14.5%;
 }
 
